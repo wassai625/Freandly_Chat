@@ -14,7 +14,7 @@ export const useTodo = () => {
     //todoListは現在のTODOの状態
     //setTodoListは現在のtodoListの状態を更新するための関数
     //todoListの初期値は空の配列をセット
-    const [todoList, setTodoList] = useState({});
+    const [todoList, setTodoList] = useState([]);
 
     useEffect(() => {
 
